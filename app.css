@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #FAFAFA;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.header {
+    grid-column: 1/5;
+}
+.main {
+    margin-left: 10%;
+}
+.main,
+.sidebar {
+    margin-top: 60px;
+}
+.sidebar {
+    margin-left: 5%;
+    width: 60%;
+}
+.sidebar .list-story {
+    background-color: #FFF;
+    margin-top: 4%;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px; 
+    padding: 5%;
+}
+.list-story .list-item {
+    width: 300px;
+    height: 220px;
+    overflow: auto;
+}
+
+.list-story .header-story {
+    display: flex;
+    align-items: center;
+}
+.header-story .tin {
+    flex-grow: 1;
+}
