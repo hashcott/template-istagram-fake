@@ -1,40 +1,55 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px
+}
+
 .avatar-item {
-    display: flex; 
+    display: flex;
     align-items: center;
     width: 258px;
-    height: 52px;;   
+    height: 52px;
+    ;
 }
+
 .avatar-image {
     width: 44px;
     height: 44px;
-    margin-right: 5px; 
+    margin-right: 5px;
 
 }
+
 .avatar-image::after {
-    border: 1px solid rgba(0,0,0,.0975);
+    border: 1px solid rgba(0, 0, 0, .0975);
 }
+
 .avatar-image img {
     width: 100%;
     height: 100%;
-    background-size: cover; 
+    background-size: cover;
     border-radius: 50%;
 }
+
 .avatar-info {
     margin-right: 8px;
 }
+
 .avatar-info .avatar-author {
     color: #262626;
     font-size: 14px;
-    vertical-align : baseline;
-    font-weight: 550; 
+    vertical-align: baseline;
+    font-weight: 550;
     margin-bottom: 3px;
 }
+
 .avatar-info .avatar-time {
     font-size: 10px;
-    color : #999;
+    color: #999;
     font-weight: bold;
 }
 
