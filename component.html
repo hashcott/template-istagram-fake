@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./component/avatar.css">
+    <link rel="stylesheet" href="./component/status.css">
+    <link rel="stylesheet" href="./component/icon.css">
+    <link rel="stylesheet" href="./component/action.css">
+    <link rel="stylesheet" href="./component/formatting.css">
+    <link rel="stylesheet" href="./component/comment.css">
+    <link rel="stylesheet" href="./component/nav.css">
     <title>Component</title>
 </head>
+
 <body>
+    <nav class="navbar">
+        <ul class="brand">
+            <li><span class="istagram"></span></li>
+            <li class="straight"></li>
+            <li><span class="logo"></span></li>
+        </ul>
+        <div class="input-search">
+            <input type="text">
+            <div class="icon-search">
+                <span class="_6RZXI search"></span>
+                <span>Tìm kiếm</span>
+            </div>
+        </div>
+        <ul class="toolbar">
+            <li><a href="#"><span class="compass"></span></a></li>
+            <li><a href=""><span class="white-heart"></span></a></li>
+            <li><a href=""><span class="user"></span></a></li>
+        </ul>
+    </nav>
+    <!-- avatar cover -->
     <div class="avatar-item">
         <div class="avatar-image"><img src="./image/cover.jpg" alt=""></div>
         <div class="avatar-info">
@@ -22,5 +50,118 @@
             <a href="#">Follow</a>
         </div>
     </div>
+    <!-- end avatar cover -->
+
+    <!-- status/ article -->
+    <div class="article">
+        <!-- header status -->
+        <div class="header">
+            <div class="avatar-item">
+                <div class="avatar-image"><img src="./image/cover.jpg" alt=""></div>
+                <div class="avatar-info">
+                    <div class="avatar-author">
+                        Hạnh Nguyễn
+                    </div>
+                </div>
+            </div>
+            <div class="option-button">
+                <button class="afkep"><span class="option"></span></button>
+            </div>
+        </div>
+        <!-- end header status -->
+        <div class="image"></div>
+        <!-- action -->
+        <div class="action">
+            <div class="emotion">
+                <button class="afkep"><span class="white-heart"></span></button>
+                <button class="afkep"><span class="comment"></span></button>
+                <button class="afkep"><span class="share"></span></button>
+            </div>
+            <div class="action-save">
+                <button class="afkep"><span class="save"></span></button>
+            </div>
+        </div>
+        <!-- end action -->
+        <!-- content -->
+        <div class="align-mleft-18 vh-bold">64,661 lượt xem</div>
+
+        <!-- comment -->
+        <div class="comment-box">
+            <ul class="comment-list">
+                <li class="comment-item"><a href="#" class="comment-name vh-bold align-mleft-18">Nguyễn Hạnh</a>
+                    <span>XIN CHÀO CÁC CHÁU</span> </li>
+                <li class="comment-item"><a href="#" class="comment-name vh-bold align-mleft-18 black-white">Xem tất cả
+                        1 tỷ bình luận</a> </li>
+                <li class="comment-item"><a href="#" class="comment-name vh-bold align-mleft-18">Hello</a> </li>
+            </ul>
+        </div>
+        <div class="article-time align-mleft-18">2 GIỜ TRƯỚC</div>
+        <div class="post-comment">
+            <div class="textarea-flex"><textarea aria-label="Thêm bình luận…" placeholder="Thêm bình luận…"
+                    class="textarea-box" autocomplete="off" autocorrect="off" style="height: 18px;"></textarea></div>
+            <div class="btn-post"> <button class="afkep black-white" style="font-size: 14px;">Đăng</button></div>
+        </div>
+        <!-- end comment -->
+
+        <!-- end content -->
+    </div>
+    <!-- end status/ article -->
+
+    <!-- status/ article -->
+    <div class="article">
+        <!-- header status -->
+        <div class="header">
+            <div class="avatar-item">
+                <div class="avatar-image"><img src="./image/cover.jpg" alt=""></div>
+                <div class="avatar-info">
+                    <div class="avatar-author">
+                        Hạnh Nguyễn
+                    </div>
+                </div>
+            </div>
+            <div class="option-button">
+                <button class="afkep"><span class="option"></span></button>
+            </div>
+        </div>
+        <!-- end header status -->
+        <div class="image"></div>
+        <!-- action -->
+        <div class="action">
+            <div class="emotion">
+                <button class="afkep"><span class="white-heart"></span></button>
+                <button class="afkep"><span class="comment"></span></button>
+                <button class="afkep"><span class="share"></span></button>
+            </div>
+            <div class="action-save">
+                <button class="afkep"><span class="save"></span></button>
+            </div>
+        </div>
+        <!-- end action -->
+        <!-- content -->
+        <div class="align-mleft-18 vh-bold">64,661 lượt xem</div>
+
+        <!-- comment -->
+        <div class="comment-box">
+            <ul class="comment-list">
+                <li class="comment-item"><a href="#" class="comment-name vh-bold align-mleft-18">Nguyễn Hạnh</a>
+                    <span>XIN CHÀO CÁC CHÁU</span> </li>
+                <li class="comment-item"><a href="#" class="comment-name vh-bold align-mleft-18 black-white">Xem tất cả
+                        1 tỷ bình luận</a> </li>
+                <li class="comment-item"><a href="#" class="comment-name vh-bold align-mleft-18">Hello</a> </li>
+            </ul>
+        </div>
+        <div class="article-time align-mleft-18">2 GIỜ TRƯỚC</div>
+        <div class="post-comment">
+            <div class="textarea-flex"><textarea aria-label="Thêm bình luận…" placeholder="Thêm bình luận…"
+                    class="textarea-box" autocomplete="off" autocorrect="off" style="height: 18px;"></textarea></div>
+            <div class="btn-post"> <button class="afkep black-white" style="font-size: 14px;">Đăng</button></div>
+        </div>
+        <!-- end comment -->
+
+        <!-- end content -->
+    </div>
+    <!-- end status/ article -->
+
 </body>
+
 </html>
