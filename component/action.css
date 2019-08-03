@@ -1,0 +1,12 @@
+.action {
+    display: flex;
+    align-items: center;
+}
+.action .emotion {
+    margin-left: 18px;
+    margin-top: 12px;
+    flex-grow: 1;
+}
+.action .action-save {
+    margin-top: 12px;
+}
