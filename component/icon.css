@@ -1,0 +1,85 @@
+.afkep {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+span.white-heart {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -290px -248px;    
+}
+span.comment {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -179px -200px;    
+}
+
+span.share {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -260px -326px;    
+}
+
+span.option {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -340px -156px;
+    
+}
+
+span.save {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -130px -326px;
+}
+span.user {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -208px -274px;
+}
+
+span.compass {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -257px -200px;
+}
+
+span.logo {
+    display: block;
+    width: 103px;
+    height: 29px;
+    background-image: url('/image/icon.png');
+    background-position: -74px -200px;
+}
+span.istagram {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/image/icon.png');
+    background-position: -74px -231px;
+}
+span.search {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-image: url('/image/icon2.png');
+    background-repeat: no-repeat; 
+    background-position: -387px -337px;
+}
+
